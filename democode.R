@@ -1,4 +1,4 @@
 ## this is a test script
 
-a <_ rnorm(100)
-plot(a)
+a <- rnorm(100)
+plot(a, xlim=c(-2,2))
